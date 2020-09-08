@@ -1,0 +1,12 @@
+google_storage:
+    type: service_account
+    project_id: sirclo-1152
+    private_key_id: 01fdc8b84f3cd255c1652954dc0ac6eb1873669c
+    private_key: -----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1M7r4XlQRf4sq\na8cKj+2BSblUVcTh5taLNowISENuvE/eu0ZhaUxa4m8v8TDHwYtfWfGiB6xSOM3K\nrsMGEQkHCZyl/pzEbNuKjaPEI00DDLROcObRxYS6hyHMfhVbNpgD3QlRPgWVz2A2\nhVtTy9sQWHt5aeBCsoMmPRSrEGOIZhS9EiZgqxYpwkuq9pYHvlRJKZCvcEnjMvB4\nNiCZYshLGX1S+4nbRFPFYTsfBhevuWQKVOZHw6WQwNiKmrl3IGu3kU7kv0T6IjQf\n7B5zpIZatf5oEjhhYX7VHF4MLZiUTYhN8gyKrztjmryXT+LPGj020nt1JA8vsV+e\nabc4n5a/AgMBAAECggEAU+USkQHjfIKH5WknK629shl3NCPN1yWweZ4UsZT7m56W\ngDJHALzm/EFQZ2sNQb9Ljycup+1TjHH+XfQSGZHzkw2ROI2s+YjJENpJU3tgoaPV\nK2g8hi0kKdR9ApfxvVyGf2tsb+/+WAE+s5+EzERbNbMx3+H0Ug0iiabIFfetja2j\npn5SH63NlmIa3xrUwmY4pKrwHzvh/OS8RCksdRsbAQaoSqZqbbgjgDKTuRuIkbdF\n2DvOfw7A8nl+WkXqZqG1fl57be4HU721at/tyUoME/JYYZIGUp94Ct2e3NvqPwvI\nX9OELSP3esIj1TiKtLmqd/tY8IdDWPPouEqu3sTfqQKBgQD9QjdBL6u7BwYHMhK9\njpauHhUxHeJfxonSKsS0wkhmKTndhC8RkQNONVaXvW48UCViZwzRAYSmPw0hhjdw\nCwweZXgcCsPD+aKONC6Hqtds6/R6NY21OE0sxtRNcwlXW8T5AosR9Cz2Bcen1fhO\ne56B7dtWzT+QCkSh8FxVWXGrHQKBgQC3KdgujMy5XZOmdM8gM5wi+dH6FqM1ESey\nBkqMIDQshfiwAQaf5D9XR4R+HBreDd5OIXMSPP9GCyQHK10qFUEo6jlPonbF23GO\npaTlqtOM6qXXN4RrogyLaCU9Xl9LjEK9t66XTBpXIOE5h008hXXQ0aLGbxOztuqd\nBwp+22kGiwKBgQD1fcUfy/zUW3eNbA1cb6ZB+2khZk1z93jLH6fza8xQMzAjOKmD\nhqTEn9FjXz1G+41xeGClDKqvl7i7wWVll1/U6xjlXc3r3sSiwZRE7+bIb2RZPiYx\n/vRYLhfHR3ZLluo1UjDKY31dsbaaSz/Zm9zHJ3CREH3HuxxSOTLXjM8xRQKBgCZo\nAcqQ/4SG2KT4rU3FRKIY3CyifopsFHTB2PPU9Nu5I9JUBL2WMKnudxuybPfO1KRx\nYx2Z6LUZNO7D6v8eAdHAe0/1cw4922vb093MmhtcQHYGUB/5lMPOjLB3j2fZ+0yo\nrVVQQd2vKUrU0h80pOWqb4VIWUs/uaY/ibXb8APNAoGBAJi2CN4eEHySOLYWpUW3\nvBqTEyorwKJ96wpgZgczNBc2q6t0cHBY6I6UBx2WGn10ywKa2/Dz3bt//uBL/8Lb\nvylm8X+eDs2qzICLnfHpW2yDJnItxHevhkoslTgWBvzEyl3/QtEDZvkW7VWTXUhn\nCmKbmPFRPDX3xKL8mJqas+lj\n-----END PRIVATE KEY-----\n
+    client_email: super-eminent-storage-accessor@sirclo-1152.iam.gserviceaccount.com
+    client_id: "115769569773750760048"
+    auth_uri: https://accounts.google.com/o/oauth2/auth
+    token_uri: https://oauth2.googleapis.com/token
+    auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+    client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/super-eminent-storage-accessor%40sirclo-1152.iam.gserviceaccount.com
+    bucket_name: sirclo-1152-super-eminent
