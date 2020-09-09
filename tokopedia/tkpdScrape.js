@@ -875,15 +875,13 @@ const { format } = require('path');
 
         let hasil = [];
         for(let i = 0; i < results.length; i++){
-          for(let j = 0; j < errorDescriptions.length; j++){
-            if(results[i] == errorDescriptions[j]){
-              hasil.push(errorDescriptions[j]) 
-            } else {
-              return 0; 
-            }
+          if(results[i] == errorDescriptions[i]){
+            hasil.push(errorDescriptions[i]) 
+          } else {
+            return 0;
           }
-          return hasil; 
-        }   
+        }  
+        return hasil;  
     }); 
 
   await browser.close();
