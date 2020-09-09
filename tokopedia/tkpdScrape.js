@@ -283,6 +283,10 @@ const { format } = require('path');
             Description: "Failed Unmarshal JSON",
           },
           {
+            Code:        "PRD_GRPC_006",
+            Description: "Product Already Archived",
+          },
+          {
             Code:        "PRD_CACHE_001",
             Description: "Failed to retrieve new upload id",
           },
@@ -631,6 +635,30 @@ const { format } = require('path');
             Description: "Failed Delete Product",
           },
           {
+            Code:        "PRD_DLV_047",
+            Description: "Value [%v] of field [%s] is not available anymore",
+          },
+          {
+            Code:        "GDS_GRPC_001",
+            Description: "Failed Send GRPC Request",
+          },
+          {
+            Code:        "GDS_GRPC_002",
+            Description: "There Are Error From Ext Service",
+          },
+          {
+            Code:        "GDS_GRPC_003",
+            Description: "Data Not Found",
+          },
+          {
+            Code:        "GDS_GRPC_004",
+            Description: "Failed Marshalling JSON",
+          },
+          {
+            Code:        "GDS_GRPC_005",
+            Description: "Failed Unmarshal JSON",
+          },
+          {
             Code:        "CMP_GRPC_001",
             Description: "Failed Send GRPC Request",
           },
@@ -677,6 +705,78 @@ const { format } = require('path');
           {
             Code:        "CMP_DLV_004",
             Description: "product_id cannot be empty",
+          },
+          {
+            Code:        "SPE_API_001",
+            Description: "Failed To Initialize Request",
+          },
+          {
+            Code:        "SPE_API_002",
+            Description: "Failed To Generate Key",
+          },
+          {
+            Code:        "SPE_API_003",
+            Description: "Failed To Fetching Request",
+          },
+          {
+            Code:        "SPE_API_004",
+            Description: "Failed To Reading Response Body",
+          },
+          {
+            Code:        "SPE_API_005",
+            Description: "Failed To Parsing Json Response",
+          },
+          {
+            Code:        "SPE_API_006",
+            Description: "There Are Error From Ext Service",
+          },
+          {
+            Code:        "SPE_API_007",
+            Description: "Failed Marshalling JSON",
+          },
+          {
+            Code:        "SPE_API_008",
+            Description: "Data Not Found",
+          },
+          {
+            Code:        "SPE_USC_001",
+            Description: "fs_id Is Not Associated With Shop ID or Warehouse ID",
+          },
+          {
+            Code:        "SPE_USC_002",
+            Description: "Product ID does not belong to Shop ID",
+          },
+          {
+            Code:        "SPE_DLV_001",
+            Description: "fs_id cannot be empty",
+          },
+          {
+            Code:        "SPE_DLV_002",
+            Description: "invalid fs_id format",
+          },
+          {
+            Code:        "SPE_DLV_003",
+            Description: "invalid shop_id format",
+          },
+          {
+            Code:        "SPE_DLV_004",
+            Description: "shop_id cannot be empty",
+          },
+          {
+            Code:        "SPE_DLV_005",
+            Description: "Invalid field [%s] format, value [%v] should be %s",
+          },
+          {
+            Code:        "SPE_DLV_006",
+            Description: "Invalid request body, please check again",
+          },
+          {
+            Code:        "SPE_DLV_007",
+            Description: "Value of field [%s] exceed limit %s=%d",
+          },
+          {
+            Code:        "SPE_DLV_008",
+            Description: "Value [%s] of field [%s] is not allowed, the allowed fields are %s",
           },
           {
             Code:        "LGS_USC_001",
@@ -772,18 +872,18 @@ const { format } = require('path');
                 Description : document.querySelectorAll('td:nth-child(2)')[i].textContent
             });
         }
-        
+
+        let hasil = [];
         for(let i = 0; i < results.length; i++){
           for(let j = 0; j < errorDescriptions.length; j++){
             if(results[i] == errorDescriptions[j]){
-              console.log("data sama");
-              return results[i];
+              hasil.push(errorDescriptions[j]) 
             } else {
-              console.log("data berubah");
-              return 0;
+              return 0; 
             }
           }
-        }        
+          return hasil; 
+        }   
     }); 
 
   await browser.close();
